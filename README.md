@@ -147,14 +147,14 @@ hydra -l msfadmin -P rockyou.txt telnet://192.168.20.50
 
 ## 📸 Screenshots
 
-![Nmap Scan](screenshots/nmap-scan.png)
-![Exploit](screenshots/metasploit-exploit.png)
-![Firewall Rule](screenshots/firewall-rule.png)
-![Blocked Port](screenshots/port-blocked.png)
-![Suricata Setup](screenshots/suricata-setup.png)
-![Detection](screenshots/scan-detected.png)
-![Brute Force](screenshots/brute-force.png)
-![Attack Blocked](screenshots/attack-blocked.png)
+![Nmap Scan](screenshots/nmap-scan.png)                                                                                                 
+![Exploit](screenshots/metasploit-exploit.png)                                                                                          
+![Firewall Rule](screenshots/firewall-rule.png)                                                                                         
+![Blocked Port](screenshots/port-blocked.png)                                                                                           
+![Suricata Setup](screenshots/suricata-setup.png)                                                                                       
+![Detection](screenshots/scan-detected.png)                                                                                            
+![Brute Force](screenshots/brute-force.png)                                                                                          
+![Attack Blocked](screenshots/attack-blocked.png)                                                                                       
 
 ---
 
@@ -181,12 +181,12 @@ hydra -l msfadmin -P rockyou.txt telnet://192.168.20.50
 ## 📂 Project Structure
 
 pfsense-suricata-home-lab/
-├── README.md
-├── report/
-├── screenshots/
-├── configs/
-├── scripts/
-├── architecture/
+├── README.md                                                                                                                         
+├── report/                                                                                                                             
+├── screenshots/                                                                                                                        
+├── configs/                                                                                                                            
+├── scripts/                                                                                                                            
+├── architecture/                                                                                                                       
 
 ---
 
