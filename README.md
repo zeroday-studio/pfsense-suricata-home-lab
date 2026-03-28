@@ -225,7 +225,7 @@ Suricata IPS blocks brute-force attack in real time.
 
 ## 📂 Project Structure
 
-pfsense-suricata-home-lab/
+pfsense-suricata-home-lab/                                                                                                              
 ├── README.md                                                                                                                         
 ├── report/                                                                                                                             
 ├── screenshots/                                                                                                                        
@@ -243,6 +243,6 @@ See: `report/soc-lab-pfsense-suricata.pdf`
 
 ## 👨‍💻 Author
 
-Rakesh A R
-Aspiring Cybersecurity Analyst
+Rakesh A R                                                                                                                              
+Aspiring Cybersecurity Analyst                                                                                                          
 https://www.linkedin.com/in/rakesh-a-r-595517288
