@@ -240,8 +240,7 @@ pfsense-suricata-home-lab/
 ---
 
 ## 📄 Full Report
-
-See: `report/soc-lab-pfsense-suricata.pdf`
+👉 [View Project Report](report/soc-lab-pfsense-suricata.pdf)
 
 ---
 
