@@ -20,9 +20,12 @@ Designed and implemented a SOC home lab using pfSense and Suricata IDS/IPS to de
 
 ---
 
-## 🧭 Architecture
+## 🌐 Network Topology
 
-![Architecture](architecture/network-diagram.png)
+### 🖼️ Figure 1: SOC Lab Network Topology
+Shows the overall lab setup including attacker, firewall, and target network.
+
+![SOC Lab Topology](architecture/network-diagram.png)
 
 ---
 
@@ -147,15 +150,57 @@ hydra -l msfadmin -P rockyou.txt telnet://192.168.20.50
 
 ## 📸 Screenshots
 
-![Nmap Scan](screenshots/nmap-scan.png)                                                                                                 
-![Exploit](screenshots/metasploit-exploit.png)                                                                                          
-![Firewall Rule](screenshots/firewall-rule.png)                                                                                         
-![Blocked Port](screenshots/port-blocked.png)                                                                                           
-![Suricata Setup](screenshots/suricata-setup.png)                                                                                       
-![Detection](screenshots/scan-detected.png)                                                                                            
-![Brute Force](screenshots/brute-force.png)                                                                                          
-![Attack Blocked](screenshots/attack-blocked.png)                                                                                       
+### ⚙️ Figure 1: pfSense Interface Configuration
+Displays WAN, LAN, and OPT1 interface setup in pfSense.
+![Network Config](screenshots/network-config.png)
 
+---
+
+### 🔍 Figure 2: Nmap Service Scan
+Shows open ports and services detected on the target machine.
+![Nmap Scan](screenshots/nmap-scan.png)
+
+---
+
+### 💣 Figure 3: Metasploit Exploitation
+Demonstrates successful exploitation of vsftpd vulnerability with root access.
+![Exploit](screenshots/metasploit-exploit.png)
+
+---
+
+### 🚫 Figure 4: Firewall Rule Blocking FTP
+pfSense firewall rule configured to block port 21 (FTP).
+![Firewall Rule](screenshots/firewall-rule.png)
+
+---
+
+### 🔐 Figure 5: Port 21 Block Verification
+Nmap scan confirms that FTP port is filtered after firewall rule.
+![Blocked Port](screenshots/port-blocked.png)
+
+---
+
+### 🚨 Figure 6: Suricata Configuration
+Shows Suricata IDS/IPS setup in inline mode on OPT1 interface.
+![Suricata Setup](screenshots/suricata-setup.png)
+
+---
+
+### 📡 Figure 7: Scan Detection Alert
+Suricata detects Nmap scanning activity and generates alerts.
+![Detection](screenshots/scan-detected.png)
+
+---
+
+### 🔑 Figure 8: Brute Force Attack
+Hydra tool performing Telnet brute-force attack.
+![Brute Force](screenshots/brute-force.png)
+
+---
+
+### ⚡ Figure 9: Attack Blocked by IPS
+Suricata IPS blocks brute-force attack in real time.
+![Blocked Attack](screenshots/attack-blocked.png)
 ---
 
 ## 📊 Results
