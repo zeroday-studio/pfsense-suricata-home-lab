@@ -234,6 +234,11 @@ pfsense-suricata-home-lab/
 
 ---
 
+## ⚙️ Installation Guide
+👉 [View Full Installation Guide](INSTALLATION.md)
+
+---
+
 ## 📄 Full Report
 
 See: `report/soc-lab-pfsense-suricata.pdf`
